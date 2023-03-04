@@ -3,4 +3,4 @@
 
  Minha primeira página estática: 
 
- <a href="https://stefanorcarvalho.github.io/html-css/exercicios/M%C3%B3dulo%20II/d010v2/curiosidades.html" target="_blank"> Meu primeiro site estático. </a>
+ <a href="https://stefanorcarvalho.github.io/html-css/tree/main/exercicios/M%C3%B3dulo%20II/d010v2/curiosidades.html" target="blank"> Meu primeiro site estático. </a>
