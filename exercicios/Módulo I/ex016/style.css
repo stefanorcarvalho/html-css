@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: darkred;
+}
+h2{
+    color: lightcoral;
+}
+p{
+    text-align: justify;
+}

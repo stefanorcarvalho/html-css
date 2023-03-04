@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans');
+
+body{
+    font-family: 'Work Sans';
+    font-size: 1em;
+    
+    /*
+    Medidas abosolutas:
+    cm, mm, in, px, pt, pc
+    
+    Medidas relativas
+    em, ex, rem, vw, vh, %
+    */
+}
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 2.5em;
+    /*shorthand font:
+        - font-style -> font-weight -> font-size ->font-family
+    */
+}
+h2{
+    font: italic bolder 1.5em serif;
+}
