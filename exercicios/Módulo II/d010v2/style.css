@@ -37,7 +37,7 @@ header {
 }
 
 header > h1 {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-family: var(--fontedestaque);
     font-size: 3em;
     font-weight: normal;
