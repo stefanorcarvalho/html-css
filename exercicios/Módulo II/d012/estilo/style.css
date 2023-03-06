@@ -7,7 +7,7 @@
     --cor0: #000000;
     --cor1: #fff;
  
-    --fontepadrao: Arial, Verdana, Helvetica, sans-serif;
+    --fontepadrao: Verdana, Geneva, Tahoma, sans-serif;
     --fontedestaque: 'Passion One', 'cursive';
     --fontecordel: 'Sriracha', 'cursive';
  }
@@ -63,20 +63,39 @@ div {
     font-size: 3.5vw;
 }
 
+div > p {
+    padding-bottom: 2em;
+}
+
 div.texto{
     background-color: var(--cor1);
     color: var(--cor0);
 }
 
-div.imagem{
+div.imagem {
     background-color: dimgray;
     color: var(--cor1);
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.475);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-div.imagem > p{
-    display: inline-box;
+
+div.imagem > p {
+    display: inline-block;
     padding: 5px;
-    background-color: var(--cor0);
+    background-color: rgba(0, 0, 0, 0.515);
+    text-shadow: 1px 1px 0px var(--cor0);
+}
+
+div#img01 {
+    background-image: url('../imagens/background001.jpg');
+}
+
+div#img02 {
+    background-image: url("../imagens/background002.jpg");
+
 }
 
 footer {
