@@ -35,6 +35,7 @@ header h1 {
     font-family: var(--fontedestaque);
     font-variant: small-caps;
     color: var(--cor1);
+    font-size: 10vw;
 }
 
 header p {
@@ -54,10 +55,12 @@ a:hover {
 }
 
 div {
+    font-family: var(--fontecordel);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 
 div.texto{
@@ -71,7 +74,8 @@ div.imagem{
 }
 
 div.imagem > p{
-    width: 400px;
+    display: inline-box;
+    padding: 5px;
     background-color: var(--cor0);
 }
 
