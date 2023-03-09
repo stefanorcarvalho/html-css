@@ -10,13 +10,17 @@
         }
 
         table {
-            width: 500px;
+            width: 400px;
             border-collapse: collapse;
         }
 
         th, td {
             border: 1px solid #000000;
             padding: 8px;
+        }
+        
+        td {
+            width: 70px;
         }
 
         thead, tfoot {
@@ -31,6 +35,13 @@
         td.num {
             text-align: right;
         }
+        
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
 
     </style>
     <title>Uso de Tabelas</title>
@@ -39,11 +50,12 @@
     <h1>Utilizando tabelas grandes</h1>
 
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Posição</th>
+                <th scope ="col">Estado</th>
+                <th scope ="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -187,7 +199,7 @@
         <tfoot>
             <tr>
                 <td></td>
-                <th>Total</th>
+                <th scope="row">Total</th>
                 <td class="num"><strong>207.913.699</strong></td>
             </tr>
 
